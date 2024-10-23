@@ -5,9 +5,9 @@ on:
     branches:
       - dev
     paths-ignore:
-      - './Kubernetes'
-      - './Terraform'
-      - './.github/workflows/backend.yaml'
+      - 'Kubernetes/**'
+      - 'Terraform/**'
+      - '.github/workflows/backend.yaml'
   pull_request:
     branches:
       - dev
@@ -46,7 +46,7 @@ jobs:
           sonar-scanner \
             -Dsonar.projectKey=frontend \
             -Dsonar.sources=./frontend \
-            -Dsonar.host.url=http://50.16.129.205:9000 \
+            -Dsonar.host.url=http://174.129.91.46:9000 \
             -Dsonar.login=$SONAR_TOKEN
 
   docker_build_scan_push:
