@@ -1,3 +1,4 @@
+tag: latest
 replicaCount: 1
 deployFrontend: true
 deployBackend: false
