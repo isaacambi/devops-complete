@@ -1,4 +1,4 @@
-tag: latest
+tag: "088089996a2c3169f2591fc6d40de47e7732baf7"
 replicaCount: 1
 deployFrontend: true
 deployBackend: false
